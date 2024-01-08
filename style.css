@@ -53,7 +53,8 @@
   color: #3a3a3a;
 }
 /* heading */
-h3, .lable-add-item {
+h3, 
+.lable-add-item {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -62,7 +63,6 @@ h3, .lable-add-item {
   margin: 0;
   text-transform: uppercase;
 }
-
 .input-text {
   margin: 0;
   font-size: 18px;
@@ -125,7 +125,6 @@ h3, .lable-add-item {
 }
 
 /* edit task */
-
 .list-item .input-text {
   display: none;
 }
