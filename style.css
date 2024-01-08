@@ -58,7 +58,7 @@ button:hover {
 }
 /* heading */
 h3,
-label[for="new-task"] {
+label[for="new-task-id"] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -84,11 +84,11 @@ input[type="text"]:focus {
 }
 
 /* new task */
-label[for="new-task"] {
+label[for="new-task-id"] {
   display: block;
   margin: 0 0 20px;
 }
-input#new-task {
+input#new-task-id {
   width: 318px;
 }
 
@@ -128,7 +128,7 @@ button.delete-button img:hover {
 }
 
 /* completed */
-ul#completed-tasks label {
+ul#completed-tasks-id label {
   text-decoration: line-through
   color: #888;
 }
