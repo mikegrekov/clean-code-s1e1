@@ -80,7 +80,7 @@ h3, .lable-add-item{
 }
 
 /* new task */
-label[for="new-task-id"] {
+.lable-add-item {    
   display: block;
   margin: 0 0 20px;
 }
@@ -89,7 +89,7 @@ label[for="new-task-id"] {
 }
 
 /* task list */
-li {
+.list-item {
   /* overflow: hidden; */
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -98,20 +98,20 @@ li {
   justify-content: space-between;
   align-items: center;
 }
-li > * {
+/* .list-item > * {
   vertical-align: middle;
-}
+} */
 
-li > input[type="checkbox"] {
+.list-item > input[type="checkbox"] {
   margin: 0 10px;
 }
-li > label {
+.list-item > label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
-li > input[type="text"] {
+.list-item > input[type="text"] {
   width: 226px
 }
 .button.delete-button img {
@@ -124,8 +124,8 @@ li > input[type="text"] {
 }
 
 /* completed */
-ul#completed-tasks-id label {
-  text-decoration: line-through
+#completed-tasks-id label {
+  text-decoration: line-through;
   color: #888;
 }
 
