@@ -18,9 +18,9 @@
 }
 
 @media (max-width:768px) {
-.header-container { 
-  text-align: center;
-}
+  .header-container { 
+    text-align: center;
+  }
 }
 .centered-main-page-element {
   display: block;
@@ -53,7 +53,7 @@
   color: #3a3a3a;
 }
 /* heading */
-h3, .lable-add-item{
+h3, .lable-add-item {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -75,7 +75,6 @@ h3, .lable-add-item{
   font-family: lato, sans-serif;
   color: #888;
 }
-
 .input-text:focus {
   color: #333;
 }
@@ -91,7 +90,6 @@ h3, .lable-add-item{
 
 /* task list */
 .list-item {
-  /* overflow: hidden; */
   padding: 20px 0;
   border-bottom: 1px solid #eee;
 
@@ -99,7 +97,6 @@ h3, .lable-add-item{
   justify-content: space-between;
   align-items: center;
 }
-
 .list-item.check-box {
   margin: 0 10px;
 }
@@ -130,14 +127,12 @@ h3, .lable-add-item{
 /* edit task */
 
 .list-item .input-text {
-  display:none
+  display: none
 }
-
 .list-item.edit-mode .input-text {
-  display:inline-block;
-  width:224px;
+  display: inline-block;
+  width: 224px;
 }
-
 .list-item.edit-mode .checkbox-lable {
   display: none;
 }
