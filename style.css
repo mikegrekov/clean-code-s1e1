@@ -138,3 +138,8 @@ h3,
 .list-item.edit-mode .checkbox-lable {
   display: none;
 }
+
+/* general style */
+.hidden {
+  display: none;
+}
